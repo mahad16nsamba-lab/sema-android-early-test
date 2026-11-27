@@ -10,7 +10,7 @@
 - Room creation is not implemented.
 
 ## Public test download
-Open this public download page: https://htmlpreview.github.io/?https://github.com/mahad16nsamba-lab/sema-android-early-test/blob/main/index.html
+Open this public download page: https://htmlpreview.github.io/?https://github.com/mahad16nsamba-lab/sema-android-early-test/blob/main/download.html
 
 It reconstructs the APK in the browser and enables download only after checking its SHA-256.
 - File: `Sema-Green-Firebase-Candidate-TEST.apk`
