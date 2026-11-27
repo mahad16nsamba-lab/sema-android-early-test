@@ -1,17 +1,19 @@
-# Sema Android candidate - early test only
+# Sema Android candidate — early test only
 
-> **This is an unfinished test candidate, not a finished app or production release.**
->
-> **Important safety warnings**
-> - Sign-ups connect to a real Firebase project. Do not use a password you use elsewhere.
-> - The app has not been tested on a phone.
-> - Chat security is unverified. **Do not use chat or share sensitive/personal content.**
-> - This app is **not end-to-end encrypted**.
-> - The candidate APK is test-signed, not signed for a production release.
-> - Room creation is not implemented.
+> **Unfinished test software, not a finished app or production release.**
 
-## Publication status
+## Important safety warnings
+- Sign-up connects to a real Firebase project. Use a unique throwaway password; never reuse a password.
+- Chat security is unverified. **Do not use chat or share sensitive/personal content.**
+- This app is **not end-to-end encrypted**.
+- The candidate APK has not been tested on a phone and is test-signed, not production-signed.
+- Room creation is not implemented.
 
-The candidate APK is **not attached or publicly downloadable yet**. This repository currently contains only this notice; it is not an app release. No app source code, backend changes, or private project files have been published here.
+## Public test download
+The APK is provided through a static download page that reconstructs the binary in the visitor's browser and checks its SHA-256 before enabling download: https://mahad16nsamba-lab.github.io/sema-android-early-test/
 
-The APK will only be described as an early-test prerelease if a binary attachment is made available.
+- File: `Sema-Green-Firebase-Candidate-TEST.apk`
+- Size: 209,468 bytes
+- SHA-256: `8399758d6d52cd0c7940b1e7ae9e58a13b01f8feb06245ac1333f495396d99a4`
+
+No app source code, private project files, or Firebase configuration file has been added to this repository. This repository contains only the test download page, its text-encoded APK payload, and a static Pages deployment workflow. Install only if you understand and accept the risks of sideloading an unfinished test build.
